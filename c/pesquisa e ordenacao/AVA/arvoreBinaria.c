@@ -95,6 +95,7 @@ main()
 	for(i = 0; i < 11; i++)
 	{
 		inserir(&tree, vetor[i]);
+		printf("Valor %c inserido na árvore.\n", vetor[i]);
 	}
 	
 	printf("\n\nDigite o valor a ser procurado: ");
